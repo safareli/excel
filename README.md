@@ -2,6 +2,10 @@
 
 This is simplified excel implementation.
 
+Code is deployed at: https://csb-uohzm-jxf79fdao.vercel.app/
+
+CodeSandbox: https://codesandbox.io/s/beautiful-austin-uohzm?file=/src/Grid.tsx
+
 ## Project is built using:
 
 - TypeScript
