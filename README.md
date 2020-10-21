@@ -1,4 +1,21 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Excel
+
+This is simplified excel implementation.
+
+## Project is built using:
+
+- TypeScript
+- React
+- mobx
+- react-virtualized
+- [Create React App](https://github.com/facebook/create-react-app).
+
+## Features
+
+- `=SUM(A1,A4,10,20)` - sums up all values
+- `=PRODUCT(A1,A4,10,20)` - multiplies all values
+- `=B1` - references just one value
+- if Cycle is detection new input will be rejected
 
 ## Available Scripts
 

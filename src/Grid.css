@@ -1,0 +1,30 @@
+.Grid {
+  text-align: center;
+  height: 100vh;
+}
+
+.Grid-cell--frozen {
+  background: hsl(0deg, 0%, 90%);
+  color: hsl(0deg, 0%, 40%);
+}
+
+.Grid-cellContent {
+  font-size: 12px;
+  line-height: 30px;
+  left: 0;
+  top: 0;
+  position: absolute;
+  box-shadow: 0 0 0 0.5px black inset;
+  box-sizing: border-box;
+  border: none;
+  padding: 0 10px;
+  width: 100%;
+  height: 100%;
+}
+
+.Grid-cellContent:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.5px blue inset, 0 0 0 0.5px blue;
+  z-index: 200;
+  position: relative;
+}
